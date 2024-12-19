@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[89]:
 
 
 get_ipython().system('pip install numpy')
@@ -19,7 +15,6 @@ import matplotlib.pyplot as plt
 
 
 # # Data Reading
-# 
 
 # In[2]:
 
@@ -734,9 +729,6 @@ plt.legend()
 plt.show()
 
 
-# In[88]:
-
-
 xx = range(len(y_test))
 # Plot actual values
 plt.plot(xx, y_test, color='blue', label='Actual Prices')
@@ -753,41 +745,7 @@ plt.legend()
 # Show the plot
 plt.show()
 
-
-# 
-
-# In[89]:
-
-
-# Display the updated DataFrame
 print(results_df)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
